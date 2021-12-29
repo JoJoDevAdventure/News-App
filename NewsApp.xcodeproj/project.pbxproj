@@ -13,6 +13,8 @@
 		A3EC002B277D0E2E00C6C4E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EC0029277D0E2E00C6C4E1 /* Main.storyboard */; };
 		A3EC002D277D0E3000C6C4E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EC002C277D0E3000C6C4E1 /* Assets.xcassets */; };
 		A3EC0030277D0E3000C6C4E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EC002E277D0E3000C6C4E1 /* LaunchScreen.storyboard */; };
+		A3EC0038277D0F7200C6C4E1 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0037277D0F7200C6C4E1 /* APICaller.swift */; };
+		A3EC003A277D18EF00C6C4E1 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0039277D18EF00C6C4E1 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A3EC002C277D0E3000C6C4E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3EC002F277D0E3000C6C4E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3EC0031277D0E3000C6C4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EC0037277D0F7200C6C4E1 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		A3EC0039277D18EF00C6C4E1 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A3EC002C277D0E3000C6C4E1 /* Assets.xcassets */,
 				A3EC002E277D0E3000C6C4E1 /* LaunchScreen.storyboard */,
 				A3EC0031277D0E3000C6C4E1 /* Info.plist */,
+				A3EC0037277D0F7200C6C4E1 /* APICaller.swift */,
+				A3EC0039277D18EF00C6C4E1 /* NewsTableViewCell.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				A3EC0028277D0E2E00C6C4E1 /* ViewController.swift in Sources */,
 				A3EC0024277D0E2E00C6C4E1 /* AppDelegate.swift in Sources */,
+				A3EC003A277D18EF00C6C4E1 /* NewsTableViewCell.swift in Sources */,
 				A3EC0026277D0E2E00C6C4E1 /* SceneDelegate.swift in Sources */,
+				A3EC0038277D0F7200C6C4E1 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
